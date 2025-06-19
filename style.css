@@ -75,7 +75,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-
 /* ======== BANNER FULL WIDTH E RESPONSIVO ======== */
 .banner-full {
   position: relative;
@@ -1028,7 +1027,6 @@ footer .container {
   font-weight: bold;
   transition: background 0.3s;
 }
-
 .botao-whatsapp:hover {
   background-color: #1ebe5d;
 }

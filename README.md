@@ -1,6 +1,8 @@
 # 🌱 Serra Verde Gramas - Site Institucional
 
-Este projeto é um site institucional desenvolvido como parte da disciplina **Construção de Sites Web** do curso **Tecnologia em Sistemas para Internet (TSI)**, oferecido pelo **Instituto Federal Sul-rio-grandense (IFSUL)**.
+[🔗 Acesse o site aqui](https://rogermorony.github.io/site-serra-verde/)
+
+Este projeto é um site institucional desenvolvido como parte da disciplina **Construção de Sites Web** do curso **Tecnologia em Sistemas para Internet (TSIaD)**, oferecido pelo **Instituto Federal Sul-rio-grandense (IFSUL)**.
 
 ## 📚 Sobre o Projeto
 
@@ -27,7 +29,8 @@ Atendemos toda a região da Serra Gaúcha com responsabilidade, compromisso e co
 
 ---
 
-> Desenvolvido por **Roger Morony Martins**  
+> Desenvolvido por **Roger Morony Martins**
+> Polo: São Francisco de Paula  
 > Disciplina: Construção de Sites Web  
 > Professor: Prof. Dr. Marcelo Siedler  
 > Instituto Federal Sul-rio-grandense – IFSUL  

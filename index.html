@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serra Verde Gramas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- ======== HEADER ======== -->
+  <header>
+    <div class="container">
+      <div class="logo-nome">
+        <img src="imagens/logo.png" alt="Logo Serra Verde" class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="localizacao.html">Localização</a></li>
+          <li><a href="institucional.html">Institucional</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li>
+            <a href="https://wa.me/5554999222025" class="botao-orcamento" target="_blank">
+              <img src="imagens/icons8-whatsapp-48.png" alt="WhatsApp" class="icon-whats">
+              Solicite orçamento
+            </a>
+          </li>          
+        </ul>
+      </nav>     
+    </div>
+  </header>
+
+  <!-- CARROSSEL BANNER -->
+  <section class="banner-carrossel">
+    <input type="radio" id="banner1" name="carrossel-banner" checked>
+    <input type="radio" id="banner2" name="carrossel-banner">
+    <input type="radio" id="banner3" name="carrossel-banner">
+
+    <div class="banners">
+      <!-- Banner 1 com link para produtos -->
+      <div class="banner-item banner1">
+        <a href="produtos.html">
+          <img src="imagens/banner1.png" alt="Escolha sua grama">
+        </a>
+      </div>
+  
+      <!-- Banner 2 sem link -->
+      <div class="banner-item banner2">
+        <img src="imagens/banner2.png" alt="Tipos de grama">
+      </div>
+  
+      <!-- Banner 3 com link para WhatsApp -->
+      <div class="banner-item banner3">
+        <a href="https://wa.me/5554999222025" target="_blank">
+          <img src="imagens/banner3.png" alt="Orçamento via WhatsApp">
+        </a>
+      </div>
+    </div>
+  
+    <div class="banners-nav">
+      <label for="banner1"></label>
+      <label for="banner2"></label>
+      <label for="banner3"></label>
+    </div>
+  </section>
+
+  <!-- ======== TIPOS DE GRAMA - CARROSSEL ======== -->
+  <section class="tipos-grama">
+    <h2 class="titulo-tipos-grama">TIPOS DE GRAMAS</h2>
+    <div class="carrossel-gramas">
+      
+      <!-- Radios de navegação -->
+      <input type="radio" id="grama1" name="carrossel-grama" checked>
+      <input type="radio" id="grama2" name="carrossel-grama">
+      <input type="radio" id="grama3" name="carrossel-grama">
+      
+      <!-- CARD 1 -->
+      <div class="card-tipo-grama carrossel-item grama1">
+        <div class="card-grama-img">
+          <img src="imagens/esmeralda02.jpg" alt="Grama Esmeralda">
+        </div>
+        <div class="card-grama-texto">
+          <h3>ESMERALDA</h3>
+          <p>
+            Folhas finas, coloração verde esmeralda, possui um rápido e profundo enraizamento. Além disso, conta com uma boa resistência à seca e baixa exigência nutricional. O crescimento da grama Esmeralda é lento quando comparada a outras gramíneas, como a Batatais.
+          </p>
+          <a href="produtos.html" class="veja-mais">VEJA MAIS</a>
+        </div>
+        <div class="card-grama-logo">
+          <img src="imagens/esmeralda_logo.jpg" alt="Logo Esmeralda">
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card-tipo-grama carrossel-item grama2">
+        <div class="card-grama-img">
+          <img src="imagens/saocarlos02.png" alt="Grama São Carlos Plus">
+        </div>
+        <div class="card-grama-texto">
+          <h3>SÃO CARLOS PLUS</h3>
+          <p>
+            Variedade com as folhas mais largas do mercado, cor verde escura, apresenta nervuras paralelas ao longo da folha que caracterizam este gênero. Excelente para áreas a pleno sol formando um lindo gramado. Esta é a variedade produzida pela Itograss com melhor adaptação a áreas com baixa luminosidade.
+          </p>
+          <a href="produtos.html" class="veja-mais">VEJA MAIS</a>
+        </div>
+        <div class="card-grama-logo">
+          <img src="imagens/saocarlosplus_logo.jpg" alt="Logo São Carlos Plus">
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card-tipo-grama carrossel-item grama3">
+        <div class="card-grama-img">
+          <img src="imagens/zeon01.jpeg" alt="Grama Zeon Zoysia">
+        </div>
+        <div class="card-grama-texto">
+          <h3>ZEON ZOYSIA</h3>
+          <p>
+            Folhas mais finas que a Esmeralda com uma coloração mais escura. Produz um gramado mais denso que as demais variedades comercializadas. Tem uma velocidade de crescimento menor que a Esmeralda. Excelente para áreas a pleno sol formando um lindo gramado.
+          </p>
+          <a href="produtos.html" class="veja-mais">VEJA MAIS</a>
+        </div>
+        <div class="card-grama-logo">
+          <img src="imagens/zeon_logo.jpg" alt="Logo Zeon Zoysia">
+        </div>
+      </div>
+      
+      <!-- Bolinhas do carrossel -->
+      <div class="carrossel-bolinhas">
+        <label for="grama1"></label>
+        <label for="grama2"></label>
+        <label for="grama3"></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== INFO ======== -->
+  
+  <section class="info">
+    <h3>Por que escolher a Serra Verde?</h3>
+    <ul class="info-lista">
+      <li><strong>✓</strong> Entrega ágil e organizada</li>
+      <li><strong>✓</strong> Gramas selecionadas com padrão de qualidade</li>
+      <li><strong>✓</strong> Atendimento direto pelo WhatsApp</li>
+      <li><strong>✓</strong> Orçamentos sem compromisso</li>
+    </ul>
+  
+    <div class="selo-solto">
+      <img src="imagens/selo.png" alt="Selo de Qualidade">
+    </div>
+  </section>
+ 
+  <!-- ======== DEPOIMENTOS - CARROSSEL ======== -->
+  <section class="depoimentos-carousel">
+    <h2 class="depoimentos-titulo">Depoimentos</h2>
+    <input type="radio" id="depo1" name="carousel" checked>
+    <input type="radio" id="depo2" name="carousel">
+    <input type="radio" id="depo3" name="carousel">
+    <input type="radio" id="depo4" name="carousel">
+    <input type="radio" id="depo5" name="carousel">
+    <div class="depoimentos-carousel-lista">
+      <div class="depoimento-item depoimento1">
+        <img src="imagens/carlos_ferreira.png" alt="Carlos Ferreira">
+        <blockquote>“A grama ficou perfeita no meu quintal, atendimento rápido e super profissional! Recomendo muito a Serra Verde Gramas.”</blockquote>
+        <span class="depo-nome">Carlos Ferreira<br><span class="depo-info">Morador de Canela/RS</span></span>
+      </div>
+      <div class="depoimento-item depoimento2">
+        <img src="imagens/patricia_martins.png" alt="Patrícia Martins">
+        <blockquote>“Ótimo atendimento desde o orçamento até a entrega. A qualidade da grama realmente faz a diferença no meu jardim.”</blockquote>
+        <span class="depo-nome">Patrícia Martins<br><span class="depo-info">Jardineira - Gramado/RS</span></span>
+      </div>
+      <div class="depoimento-item depoimento3">
+        <img src="imagens/eduardo_souza.png" alt="Eduardo Souza">
+        <blockquote>“Gostei muito do resultado, a entrega foi super ágil e os funcionários foram atenciosos do começo ao fim.”</blockquote>
+        <span class="depo-nome">Eduardo Souza<br><span class="depo-info">Empresário - Nova Petrópolis/RS</span></span>
+      </div>
+      <div class="depoimento-item depoimento4">
+        <img src="imagens/larissa_tavares.png" alt="Larissa Tavares">
+        <blockquote>“A grama veio fresquinha e pegou super bem! Fiquei impressionada com a agilidade e o cuidado na entrega.”</blockquote>
+        <span class="depo-nome">Larissa Tavares<br><span class="depo-info">Paisagista - São Francisco de Paula/RS</span></span>
+      </div>
+      <div class="depoimento-item depoimento5">
+        <img src="imagens/roberto_lima.png" alt="Roberto Lima">
+        <blockquote>“Muito obrigado, pessoal! Meu gramado nunca esteve tão bonito. Atendimento nota 10 e preço justo.”</blockquote>
+        <span class="depo-nome">Roberto Lima<br><span class="depo-info">Aposentado - Canela/RS</span></span>
+      </div>
+    </div>
+    <div class="depoimentos-bolinhas">
+      <label for="depo1"></label>
+      <label for="depo2"></label>
+      <label for="depo3"></label>
+      <label for="depo4"></label>
+      <label for="depo5"></label>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-col">
+        <h3>Serra Verde Gramas</h3>
+        <p>Somos os maiores revendedores da<br>melhor grama da serra gaúcha.</p>
+        <a href="contato.html" class="footer-btn">FALE CONOSCO</a>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Institucional</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="localizacao.html">Localização</a></li>
+          <li><a href="institucional.html">Institucional</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Redes Sociais</h3>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/serraverdegramas" target="_blank">
+            <img src="imagens/icons8-facebook-logo-94.png" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/serraverdegramas/" target="_blank">
+            <img src="imagens/icons8-instagram-logo-48.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+      
+  
+    </div>
+  
+    <div class="footer-copy">
+      <p>Desenvolvido por Roger Morony Martins - Polo: São Francisco de Paula - para a disciplina Construção de Sites Web - Prof. Dr. Marcelo Siedler - IFSul.</p>
+      <p>© 2025 Serra Verde Gramas.</p>
+    </div>
+  </footer>
+  

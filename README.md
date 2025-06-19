@@ -1,5 +1,7 @@
 # 🌱 Serra Verde Gramas - Site Institucional
 
+[🔗 Acesse o site aqui](https://rogermonorony.github.io/site-serra-verde)
+
 Este projeto é um site institucional desenvolvido como parte da disciplina **Construção de Sites Web** do curso **Tecnologia em Sistemas para Internet (TSIaD)**, oferecido pelo **Instituto Federal Sul-rio-grandense (IFSUL)**.
 
 ## 📚 Sobre o Projeto

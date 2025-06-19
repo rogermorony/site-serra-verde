@@ -1,6 +1,6 @@
 # 🌱 Serra Verde Gramas - Site Institucional
 
-Este projeto é um site institucional desenvolvido como parte da disciplina **Construção de Sites Web** do curso **Tecnologia em Sistemas para Internet (TSI)**, oferecido pelo **Instituto Federal Sul-rio-grandense (IFSUL)**.
+Este projeto é um site institucional desenvolvido como parte da disciplina **Construção de Sites Web** do curso **Tecnologia em Sistemas para Internet (TSIaD)**, oferecido pelo **Instituto Federal Sul-rio-grandense (IFSUL)**.
 
 ## 📚 Sobre o Projeto
 

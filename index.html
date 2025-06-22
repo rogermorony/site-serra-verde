@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
   
-  <!-- ======== HEADER ======== -->
+  <!-- Header -->
   <header>
     <div class="container">
       <div class="logo-nome">
@@ -33,7 +33,7 @@
     </div>
   </header>
 
-  <!-- CARROSSEL BANNER -->
+  <!-- Carrossel em banner -->
   <section class="banner-carrossel">
     <input type="radio" id="banner1" name="carrossel-banner" checked>
     <input type="radio" id="banner2" name="carrossel-banner">
@@ -60,13 +60,13 @@
       </div>
     </div>  
     <div class="banners-nav">
-      <label for="banner1"></label>
-      <label for="banner2"></label>
-      <label for="banner3"></label>
-    </div>
+      <label for="banner1" aria-label="Banner 1"></label>
+      <label for="banner2" aria-label="Banner 2"></label>
+      <label for="banner3" aria-label="Banner 3"></label>
+    </div>   
   </section>
 
-  <!-- ======== TIPOS DE GRAMA - CARROSSEL ======== -->
+  <!--  Tipo de grama - Carrossel  -->
   <section class="tipos-grama">
     <h2 class="titulo-tipos-grama">TIPOS DE GRAMAS</h2>
     <div class="carrossel-gramas">
@@ -129,14 +129,13 @@
       
       <!-- Bolinhas do carrossel -->
       <div class="carrossel-bolinhas">
-        <label for="grama1"></label>
-        <label for="grama2"></label>
-        <label for="grama3"></label>
-      </div>
-    </div>
+        <label for="grama1" aria-label="Mostrar grama Esmeralda"></label>
+        <label for="grama2" aria-label="Mostrar grama São Carlos Plus"></label>
+        <label for="grama3" aria-label="Mostrar grama Zeon Zoysia"></label>
+      </div>      
   </section>
 
-  <!-- ======== INFO ======== -->  
+  <!-- Info -->  
   <section class="info">
     <h3>Por que escolher a Serra Verde?</h3>
     <ul class="info-lista">
@@ -150,7 +149,7 @@
     </div>
   </section>
  
-  <!-- ======== DEPOIMENTOS - CARROSSEL ======== -->
+  <!--  Depoimentos em Carrosel -->
   <section class="depoimentos-carousel">
     <h2 class="depoimentos-titulo">Depoimentos</h2>
     <input type="radio" id="depo1" name="carousel" checked>
@@ -194,7 +193,7 @@
     </div>
   </section>
 
-  <!-- ======== FOOTER ======== -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer-container">      
       <div class="footer-col">
@@ -216,17 +215,19 @@
       <div class="footer-col">
         <h3>Redes Sociais</h3>
         <div class="footer-social">
-          <a href="https://www.facebook.com/serraverdegramas" target="_blank">
-            <img src="imagens/icons8-facebook-logo-94.png" alt="Facebook" />
+          <a href="https://www.facebook.com/serraverdegramas" target="_blank" aria-label="Facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
           </a>
-          <a href="https://www.instagram.com/serraverdegramas/" target="_blank">
-            <img src="imagens/icons8-instagram-logo-48.png" alt="Instagram" />
+          <a href="https://www.instagram.com/serraverdegramas/" target="_blank" aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
           </a>
         </div>
-      </div>
-    </div>
       <div class="footer-copy">
       <p>Desenvolvido por Roger Morony Martins - Polo: São Francisco de Paula - para a disciplina Construção de Sites Web - Prof. Dr. Marcelo Siedler - IFSul.</p>
       <p>© 2025 Serra Verde Gramas.</p>
     </div>
+     
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </footer>

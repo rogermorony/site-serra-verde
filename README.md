@@ -19,7 +19,7 @@ Este projeto é um site institucional desenvolvido como parte da disciplina Cons
 <br>
 
 <p align="center">
-  <img alt="Este site foi desenvolvido como parte de um trabalho acadêmico para a disciplina de Construção de Sites Web do IFSUL." src="./github/preview.png" width="100%">
+  <img alt="Este site foi desenvolvido como parte de um trabalho acadêmico para a disciplina de Construção de Sites Web do IFSUL." src="./assets/preview.png" width="100%">
 </p>
 
 [🔗 Acesse o site aqui](https://rogermorony.github.io/site-serra-verde/)

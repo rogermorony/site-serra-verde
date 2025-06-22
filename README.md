@@ -30,12 +30,7 @@ Atendemos toda a região da Serra Gaúcha com responsabilidade, compromisso e co
 ---
 
 > Desenvolvido por **Roger Morony Martins**
-<<<<<<< HEAD
 > Polo: São Francisco de Paula  
-=======
-> 
-> Polo: **São Francisco de Paula**  
->>>>>>> de45a3ffc69ef15abb62fa6789bd830ef654078e
 > Disciplina: Construção de Sites Web  
 > Professor: Prof. Dr. Marcelo Siedler  
-> Instituto Federal Sul-rio-grandense – IFSUL  
+> Instituto Federal Sul-rio-grandense – IFSUL

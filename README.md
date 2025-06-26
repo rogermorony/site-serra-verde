@@ -28,10 +28,13 @@ Este projeto é um site institucional desenvolvido como parte da disciplina Cons
 
 Este projeto foi desenvolvido utilizando:
 
-HTML5 – Estruturação do site
-CSS3 – Estilização e responsividade
-Git & GitHub – Controle de versão e publicação
-Figma – Prototipação e planejamento visual
+**HTML5** – Estruturação do site
+
+**CSS3** – Estilização e responsividade
+
+**Git** & **GitHub** – Controle de versão e publicação
+
+**Figma** – Prototipação e planejamento visual
 
 ## 💻 Projeto
 
